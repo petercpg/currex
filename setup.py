@@ -9,7 +9,7 @@ from setuptools import setup
 
 if __name__ == "__main__":
     setup(name="currex",
-          version="0.0.1",
+          version="0.0.2a1",
           entry_points={
               "console_scripts": ["currex = currex.currex:main"]
           },
