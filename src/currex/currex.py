@@ -22,7 +22,7 @@ def curr_convert(curr, rate):
         rate (float): Specified rate.
 
     Returns:
-        out (str): Output currency amount, rounded to 2 decimal places.
+        str: Output currency amount, rounded to 2 decimal places.
     """
     inp = input("What is your desired %s amount? (Type \"q\" to quit) " % curr)
     if inp == "q":
