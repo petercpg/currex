@@ -19,5 +19,6 @@ def main():
         else:
             print("%s%.2f" % ("USD", float(inp) / curr_rate))
 
+
 if __name__ == "__main__":
     main()
