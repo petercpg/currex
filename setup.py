@@ -14,4 +14,7 @@ if __name__ == "__main__":
               "console_scripts": ["currex = currex.currex:main"]
           },
           package_dir={"": "src"},
+          install_requires=[
+              "future>=0.16.0",
+          ],
           zip_safe=False)
