@@ -9,7 +9,7 @@
 
 from __future__ import division, print_function
 
-from builtins import input
+from builtins import input  # pylint: disable=redefined-builtin
 
 
 def main():
