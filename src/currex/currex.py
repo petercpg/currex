@@ -15,6 +15,15 @@ from builtins import input  # pylint: disable=redefined-builtin
 
 
 def curr_convert(curr, rate):
+    """Converts a currency using the specified rate.
+
+    Args:
+        curr (str): Currency name.
+        rate (float): Specified rate.
+
+    Returns:
+        out (str): Output currency amount, rounded to 2 decimal places.
+    """
     inp = input("What is your desired %s amount? (Type \"q\" to quit) " % curr)
     if inp == "q":
         sys.exit(0)
@@ -24,6 +33,8 @@ def curr_convert(curr, rate):
 
 
 def main():
+    """Main function to convert a desired currency repeatedly.
+    """
     inp_curr = input("What is your desired currency? ")
     curr_rate = float(input("What is your desired rate? USD1:%s" % inp_curr))
     while True:
