@@ -20,7 +20,8 @@ test_script:
     # - "%PYTHON%\\python.exe -m pytest --flake8 --pylint -p no:cov"
     # - "%PYTHON%\\python.exe -m pytest -p no:flake8 -p no:pylint --cov-report xml"
     - "%PYTHON%\\python.exe -m pytest --flake8 --pylint"
-    - "%PYTHON%\\python.exe -m pytest -p no:flake8 -p no:pylint"
+    # Enable the following only when tests are written
+    # - "%PYTHON%\\python.exe -m pytest -p no:flake8 -p no:pylint"
 # on_success:
 #     - "codecov -f coverage.xml"
 skip_branch_with_pr: true
