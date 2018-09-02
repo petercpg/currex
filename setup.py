@@ -13,6 +13,7 @@ if __name__ == "__main__":
           entry_points={
               "console_scripts": ["currex = currex.currex:main"]
           },
+          packages=["currex"],
           package_dir={"": "src"},
           install_requires=[
               "future>=0.16.0",
